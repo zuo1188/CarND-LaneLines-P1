@@ -44,10 +44,13 @@ step6:
  1.the algorithm is not robust,may consider some other lines as line feature
  
  2.hough transform can not detect curve lines
-
+ 
+ 3.in some pictures lanes can't be detected
 
 ### 3. Suggest possible improvements to your pipeline
 
 1.use deep learning to detected lines
 
 2.use splines polynomials to represent line result
+
+3. predict lanes that cann't be detected by neighbor frame pictures
